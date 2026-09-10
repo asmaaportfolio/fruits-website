@@ -110,7 +110,7 @@ Open index.html using Live Server.
 
 👩‍💻 Author
 
-Asmaa
+Asmaa Qandil
 
 Frontend Developer & Learner
 
