@@ -140,14 +140,6 @@ This project was created to strengthen practical frontend development skills thr
 ```bash
 git clone https://github.com/asmaaportfolio/fruits-website.git
 
-Open the Project
-
-Open the project folder in Visual Studio Code.
-
-Run the Website
-
-Open index.html using Live Server.
-
 ## 👩‍💻 Author
 
 **Asmaa Qandil**
