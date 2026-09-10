@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    
+    <title>Fruits</title>
+</head>
+
+ <header class="navbar">
+    <img src="images/logo.png" alt="logo" class="logo">
+    <nav class="nav">
+        <ul>
+            <li><a href="#Home">home</a></li>
+            <li><a href="#About">about</a></li>
+           
+            <li><a href="#Products">products</a></li>
+            <li><a href="#Discount">Discount</a></li>
+            <li><a href="#Reviews">reviews</a></li>
+            <li><a href="#Contact">contact</a></li>
+        </ul>
+     
+       
+    </nav>
+    <div class="icons">
+       <a href="cart.html" class="cart-link">
+    <i class="fa-solid fa-cart-shopping cart-icon"></i>
+    <span class="cart-count">0</span>
+     </a>
+        <a href="login.html" class="login-icon">
+        <i class="fa-solid fa-user"></i>
+       </a>
+        <div class="menu-bar">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+
+ </header>
+
+ <section class="home" id="Home">
+    <svg class="wave wave-top" viewBox="0 0 1440 320">
+        <path fill="#ffcc00" d="M0,160L60,165C120,170,240,180,360,186.7C480,192,600,192,720,186.7C840,181,960,171,1080,154.7C1200,139,1320,117,1380,106.7L1440,96V0H0Z"></path>
+    </svg>
+    <div class="content">
+        <h2>The Freshest  <br>
+            Fruits for You 🍍</h2>
+        <p>Enjoy a natural and <br> healthy taste every day.</p>
+        <button >Discover More</button>
+    </div>
+    
+    <img src="images/2.png" alt="Pineapple" class="pineapple ">
+
+    <svg class="wave wave-bottom" viewBox="0 0 1440 320">
+        <path fill="#ffcc00" d="M0,224L80,218.7C160,213,320,203,480,181.3C640,160,800,128,960,117.3C1120,107,1280,117,1360,122.7L1440,128V320H0Z"></path>
+    </svg>
+ </section>
+
+<section class="main" >
+    <div class="small-cards">
+        <div class="small ">
+            <img src="images/fruit4.png" alt="">
+            <h2>mango</h2>
+        </div>
+        <div class="small">
+            <img src="images/fruit11.png" alt="">
+            <h2>panana</h2>
+        </div>
+        <div class="small ">
+            <img src="images/fruit10.png" alt="">
+            <h2>apple</h2>
+        </div>
+        <div class="small ">
+            <img src="images/fruit13.png" alt="">
+            <h2>Berries</h2>
+        </div>
+
+    </div>
+</section>
+<!--about-->
+
+
+<section class="about" id="About">
+    
+   
+
+    <div class="about-gallery">
+   
+        <div class="grid-item"><img src="images/chiery.png" alt="Fresh Fruits"></div>
+        <div class="grid-item"><img src="images/fruit15.png" alt="Organic Produce"></div>
+        <div class="grid-item"><img src="images/fruit20.png" alt="Healthy Choices"></div>
+        <div class="grid-item"><img src="images/fruit9.png" alt="Tasty and Nutritious"></div>
+    </div> 
+    <div class="about-content">
+        <h2>About Us</h2>
+        <p>We bring you the freshest <br>
+             and highest quality fruits  directly <br> from the best farms 
+              Our mission is <br> to provide healthy  fruits with <br> the fastest delivery at the best prices.</p>
+        <button class="about-btn">Learn More</button>
+    </div>
+
+
+</section>
+
+<section class="cards" id="Products">
+    <h2>our products</h2>
+    <div class="card-container" id="cardContainer"></div>
+</section>
+
+<div class="modal" id="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <img id="modal-image" src="" alt="">
+        <h2 id="modal-title"></h2>
+        <div class="det">
+        <p id="modal-desc" class="desc"></p>
+        <p id="modal-price" class="price"></p>  
+    </div>
+    </div>
+</div>
+ <!--descount-->
+ <section class="discount" id="Discount">
+    <h2>Special Discount <br>
+         Just for You!</h2>
+    <div class="offer">
+      <div class="offer-text">
+        <h5>offer 50%</h5>
+        <p>Enjoy fresh and delicious fruits at <br> unbeatable  Limited time offer</p>
+        <button>Shop Now</button>
+      </div>
+
+      <div class="offer-image">
+        <img src="images/offer.png" alt="offer" class="rotating">
+      </div>
+    </div>
+  </section>
+
+
+  <!--customers-->
+  <div class="custemer" id="Reviews">
+    <h2>Our Customers</h2>
+    <div class="wrapper">
+      <button id="left" class="prev">❮</button> 
+      <div class="carousel">
+        <div class="review">
+          <img src="images/cust1.jpg" alt="review" draggable="false">
+          <h3>John Smith</h3>
+          <p>Very professional!</p>
+          <button>Read more</button>
+        </div>
+        <div class="review">
+          <img src="images/cust2.jpg" alt="review" draggable="false">
+          <h3>Jane Doe</h3>
+          <p>Excellent service!</p>
+          <button>Read more</button>
+        </div>
+        <div class="review">
+          <img src="images/cust3.jpg" alt="review" draggable="false">
+          <h3>Mike Ross</h3>
+          <p>Great experience!</p>
+          <button>Read more</button>
+        </div>
+        <div class="review">
+          <img src="images/cust4.jpg" alt="review" draggable="false">
+          <h3>Amy Adams</h3>
+          <p>Very satisfied!</p>
+          <button>Read more</button>
+        </div>
+        <div class="review">
+          <img src="images/cust5.webp" alt="review" draggable="false">
+          <h3>David Warner</h3>
+          <p>Highly recommend!</p>
+          <button>Read more</button>
+        </div>
+        <div class="review">
+          <img src="images/cust6.jpg" alt="review" draggable="false">
+          <h3>Sarah Jones</h3>
+          <p>Will come back again!</p>
+          <button>Read more</button>
+        </div>
+      </div>
+      <button id="right" class="next">❯</button>
+    </div>
+  </div>
+  
+
+  
+<!--contact-->
+
+ 
+
+<div class="contact-section" id="Contact">
+    <div class="contact-card">
+      <div class="card-inner">
+        <div class="card-front">
+          <h2>Contact Us</h2>
+          <p>📞 Call us anytime</p>
+        </div>
+        <div class="card-back">
+          <h2>Send a Message</h2>
+          <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <div class="contact-card">
+      <div class="card-inner">
+        <div class="card-front">
+          <h2>Our Office</h2>
+          <p>📍 Location: Cairo, Egypt</p>
+        </div>
+        <div class="card-back">
+          <h2>Working Hours</h2>
+          <p>Sun - Thu</p>
+          <p>9:00 AM - 5:00 PM</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--footer-->
+  <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <h2>Asmaa Qandil</h2>
+      <p>Front-End Web Developer</p>
+    </div>
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Follow Me</h3>
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Asmaa Qandil. All rights reserved.</p>
+  </div>
+</footer>
+
+  
+  
+  
+
+ 
+
+
+
+
+  
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
