@@ -5,6 +5,10 @@
 
 A modern and responsive fruit shop website built with HTML, CSS, and JavaScript.
 
+
+![Fruits Website Preview](screenshots/fruits-preview.png)
+
+
 </div>
 ✨ About The Project
 
