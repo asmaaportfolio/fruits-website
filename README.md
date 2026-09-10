@@ -148,19 +148,20 @@ Run the Website
 
 Open index.html using Live Server.
 
-👩‍💻 Author
-Asmaa Qandil
+## 👩‍💻 Author
+
+**Asmaa Qandil**
 
 Frontend Developer & Learner
 
 Built with ❤️, JavaScript, and lots of 🍓🍊🍍
 
 <div align="center">
-🍓 Eat Fresh. Stay Healthy. 🍓
+
+🍓 **Eat Fresh. Stay Healthy.** 🍓
 
 ⭐ If you like this project, consider giving it a star!
 
 </div>
-
 
 
